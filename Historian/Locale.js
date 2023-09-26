@@ -134,6 +134,7 @@ var locale = {
 		machinePureGolemWater: "Nest on Lake",
 		machinePureGolemAir: "Floating Nest",
 		machinePureGolemFire: "Nest of White Flame",
+		machineGolemAlkahest: "Nest of Perfection",
 	},
 	oRecipes:
 	{
@@ -420,6 +421,7 @@ var locale = {
 		temporalShenigans1: "Tick Speeding",
 
 		parallelCreation1: "Triple Compressed Space",
+		parallelCreation2: "Negative Compressed Space",
 		parallelProduce1: "Single Galaxy",
 
 		foldedSpaceCreation1: "Quadruple Compressed Space",
@@ -517,6 +519,8 @@ var locale = {
 		pureGolemAirStart1: "Golem Incarnation",
 
 		pureGolemFireStart1: "Golem Incarnation",
+
+		alkahestWinYay: "Win Condition"
 	},
 	oElementsShorthand:
 	{
@@ -640,6 +644,7 @@ var locale = {
 		PureGolemWater: "PureGolemWater",
 		PureGolemAir: "PureGolemAir",
 		PureGolemFire: "PureGolemFire",
+		GolemAlkahest: "GolemAlkahest",
 		Mystery: "Mystery",
 	},
 	waypoints:
