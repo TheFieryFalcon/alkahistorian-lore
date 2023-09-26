@@ -3963,7 +3963,19 @@ var reachCircle = {
 						["Parallel", 1, 1.2],
 					],
 					lock: ["Temporal", 1, "Space", 100],
+					upgrade: ["parallelCreation2", "CompressionCrystal", 2],
 				},
+				parallelCreation2:
+				{
+					baseStats: [1, 0.01, true, true],
+					in: [
+						["FoldedSpace", 4, 11],
+					],
+					out: [
+						["Parallel", 5, 1.2e4],
+					],
+					
+				}
 				parallelProduce1:
 				{
 					baseStats: [1, 0.05, true, true],
@@ -4962,7 +4974,7 @@ var pureCircle = {
 					baseStats: [1, 0.1, true, true],
 					in: [
 						["SterileGlass", 0.03, 0.5],
-						["FoldedSpatial", 2, 0.5],
+						["FoldedSpatial", 2, 0.5, ["PureGolemEarth", 1, "PureGolemWater", 1, "PureGolemAir", 1, "PureGolemFire", 1]],
 						["Spatial", 1000, 140],
 						["Tin", 8, 2],
 						["Pressure", 2, 7.5],
@@ -5134,7 +5146,7 @@ var pureCircle = {
 						["PureEarth", 100, 100],
 					],
 					out: [
-						["PureGolemEarth", 1, 1],
+						["PureGolemEarth", 1, 10],
 					],
 					lock: ["SterileGlass", 21],
 				},
@@ -5153,7 +5165,7 @@ var pureCircle = {
 						["PureWater", 100, 100],
 					],
 					out: [
-						["PureGolemWater", 1, 1],
+						["PureGolemWater", 1, 10],
 					],
 					lock: ["SterileGlass", 21],
 				},
@@ -5172,7 +5184,7 @@ var pureCircle = {
 						["PureAir", 100, 100],
 					],
 					out: [
-						["PureGolemAir", 1, 1],
+						["PureGolemAir", 1, 10],
 					],
 					lock: ["SterileGlass", 21],
 				},
@@ -5191,7 +5203,7 @@ var pureCircle = {
 						["PureFire", 100, 100],
 					],
 					out: [
-						["PureGolemFire", 1, 1],
+						["PureGolemFire", 1, 10],
 					],
 					lock: ["SterileGlass", 21],
 				},
@@ -5217,6 +5229,47 @@ var pureCircle = {
 						["Propene", 12, 12],
 						["Propane", 12, 12],
 						["Diesel", 12, 12],
+						["Petrol", 12, 12],
+						["Energy", 150, 150],
+						["Force", 150, 150],
+						["Ice", 2.5e3, 2.5e3],
+						["Mud", 2.5e3, 2.5e3],
+						["Magma", 2.5e3, 2.5e3],
+						["Steam", 2.5e3, 2.5e3],
+						["Sand", 2.5e3, 2.5e3],
+						["Void", 2.5e3, 2.5e3],
+						["Alkahest", 50, 50],
+						["Ice", 4.8, 4.8],
+						["Gold", 4.8, 4.8],
+						["Copper", 184, 184],
+						["Bronze", 48, 48],
+						["Silver", 16.3, 16.3],
+						["Tin", 2.3e3, 2.3e3],
+						["Aluminum", 6.3e3, 6.3e3],
+						["Iron", 2.4e4, 2.4e4],
+						["Steel", 1.2, 1.2],
+						["Clay", 1.2, 1.2],
+						["Quartz", 326, 326],
+						["Emerald", 77, 77],
+						["Sapphire", 77, 77],
+						["Ruby", 77, 77],
+						["Topaz", 77, 77],
+						["PlantEarth", 1e4, 1e4],
+						["PlantWater", 1e4, 1e4],
+						["PlantAir", 1e4, 1e4],
+						["PlantFire", 1e4, 1e4],
+						["PerfectedOrb", 4, 4],
+						["Space", 1e10, 1e10],
+						["Spatial", 1e8, 1e8],
+						["Temporal", 1e6, 1e6],
+						["Parallel", 1e4, 1e4],
+						["FoldedSpace", 150, 150],
+						["FoldedSpatial", 150, 150],
+						["FoldedTemporal", 1.2, 1.2],
+						["Revelation", 4.8, 4.8],
+					],
+					out: [
+						["GolemAlkahest", 1, 1],
 						
 					],
 				}
