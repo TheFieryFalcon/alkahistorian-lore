@@ -199,8 +199,7 @@ var lore = {
 		},
 		Research:
 		{
-			text: "TO BE RELEASED SOON",
-			/*
+		
 						"Utility":
 						{
 							"Time":
@@ -224,7 +223,7 @@ var lore = {
 							"Revelation":
 							{
 								lock: ["Revelation", 1e-10],
-								text: "The hidden vault inside my mind. | | It's lock consumed by the Alkahest.",
+								text: "The hidden vault inside my mind. | | Its lock consumed by the Alkahest.",
 							},
 							"Knowledge":
 							{
@@ -272,22 +271,22 @@ var lore = {
 								"GolemEarth":
 								{
 									lock: ["GolemEarth", -1e-10],
-									text: "",
+									text: "A forever steadfast and faithful companion, it is willing to do whatever I can make it. Unfortunately, those things seem to all include the death of said companion.",
 								},
 								"GolemWater":
 								{
 									lock: ["GolemWater", -1e-10],
-									text: "",
+									text: "Unlike the golem of Earth, this seems to be more fluid and open to change. Unfortunately, no further change will come due to the imminent demise of this golem due to the production lines I have set up.",
 								},
 								"GolemAir":
 								{
 									lock: ["GolemAir", -1e-10],
-									text: "",
+									text: "This golem is more flighty and wild than other golems. It might have something to do with its air nature, although this cannot be verified.",
 								},
 								"GolemFire":
 								{
 									lock: ["GolemFire", -1e-10],
-									text: "",
+									text: "This golem burns with a righteous rage, and this is just as I am seemingly just creating it to destroy it. || These experiments will lead to something more significant, I will continue to hope and pray that all these sacrifices are not in vain,",
 								},
 							},
 							"Tier 2":
@@ -706,11 +705,11 @@ var lore = {
 								text: "",
 							},
 
-						},*/
+						},
 		},
 		General:
 		{
-			text: "Currently this section is empty",
+			text: "Currently this section is empty (I have no clue what Nagshell planned to do with this, so this will remain empty)",
 		},
 	},
 	recurHide: function (node)
