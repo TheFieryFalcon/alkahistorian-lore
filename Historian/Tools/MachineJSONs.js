@@ -5197,6 +5197,22 @@ var pureCircle = {
 				},
 			}
 		},
+		machineGolemAlkahest:
+		{
+			baseStats: [-1000, 1000, "GolemAlkahest"],
+			recipes:
+			{
+				alkahestWinYay:
+				{
+					baseStats: [1, 1, true, false],
+					in: [
+						["PureGolemEarth", 10, 10],
+						["PureGolemWater", 10, 10],
+						["PureGolemAir", 10, 10],
+					],
+				}
+			}
+		}
 	},
 	preprocess: function ()
 	{
