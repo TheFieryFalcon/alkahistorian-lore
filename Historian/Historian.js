@@ -521,9 +521,9 @@ function tick()
 	}
 	splosions.tick();
 
-	if (winCheck && data.oElements.PureGolemEarth.amount + data.oElements.PureGolemWater.amount + data.oElements.PureGolemAir.amount + data.oElements.PureGolemFire.amount > 3)
+	if (winCheck && data.oElements.GolemAlkahest > 0.001)
 	{
-		alert("You win. I hope you liked the stage 3 of The First Alkahistorian!\n\nBig thanks to my supporters and helpers:\nPhantomLemon\nVoid\nAeras Alum\nnaltronix\nranger10700\nNevahlif06\n\nAdditional art provided by:\nnononick\nDimava\nRubikium\n\nMy entire family\nEssi & Baster\n\n\\\\('_' )\nMade by Nagshell");
+		alert("You win. I hope you liked the stage 3 of The First Alkahistorian!\n\nBig thanks to my supporters and helpers:\nPhantomLemon\nVoid\nAeras Alum\nnaltronix\nranger10700\nNevahlif06\n\nAdditional art provided by:\nnononick\nDimava\nRubikium\n\nMy entire family\nEssi & Baster\n\n\\\\('_' )\nMade by Nagshell, extended and 'Completed' by TheFieryFalcon");
 		winCheck = false;
 	}
 }
