@@ -4974,7 +4974,7 @@ var pureCircle = {
 					baseStats: [1, 0.1, true, true],
 					in: [
 						["SterileGlass", 0.03, 0.5],
-						["FoldedSpatial", 2, 0.5, ["PureGolemEarth", 1, "PureGolemWater", 1, "PureGolemAir", 1, "PureGolemFire", 1]],
+						["FoldedSpatial", 2, 0.5, 150, ["PureGolemEarth", 1, "PureGolemWater", 1, "PureGolemAir", 1, "PureGolemFire", 1]],
 						["Spatial", 1000, 140],
 						["Tin", 8, 2],
 						["Pressure", 2, 7.5],
