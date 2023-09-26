@@ -3975,7 +3975,7 @@ var reachCircle = {
 						["Parallel", 5, 1.2e4],
 					],
 					
-				}
+				},
 				parallelProduce1:
 				{
 					baseStats: [1, 0.05, true, true],
