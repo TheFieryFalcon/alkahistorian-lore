@@ -4932,7 +4932,7 @@ var gemCircle = {
 	},
 };
 var pureCircle = {
-	elements: ["PureEarth", "PureWater", "PureAir", "PureFire", "SterileGlass", "CompressionCrystal", "PerfectedOrb", "PureGolemEarth", "PureGolemWater", "PureGolemAir", "PureGolemFire", "Mystery"],
+	elements: ["PureEarth", "PureWater", "PureAir", "PureFire", "SterileGlass", "CompressionCrystal", "PerfectedOrb", "PureGolemEarth", "PureGolemWater", "PureGolemAir", "PureGolemFire", "Mystery", "GolemAlkahest"],
 	machines:
 	{
 		machinePerfectedComponents:
@@ -5209,6 +5209,15 @@ var pureCircle = {
 						["PureGolemEarth", 10, 10],
 						["PureGolemWater", 10, 10],
 						["PureGolemAir", 10, 10],
+						["PureGolemFire", 10, 10],
+						["Cryospire", 12, 12],
+						["Gale", 12, 12],
+						["Vortex", 12, 12],
+						["Blast", 2.2, 2.2],
+						["Propene", 12, 12],
+						["Propane", 12, 12],
+						["Diesel", 12, 12],
+						
 					],
 				}
 			}
