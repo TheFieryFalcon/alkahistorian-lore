@@ -417,7 +417,7 @@ savingSystem = {
 		var extraInfo = "(" + new Date().toLocaleString().replace(/[^\w.,\-:;]/g,"") + ")";
 		return "TFA3save" + extraInfo + "<<" + btoa(JSON.stringify(this.saveData())) + ">>";
 	},
-	validateImportString(str)
+	/*validateImportString(str)
 	{
 		// if (typeof str !== "string") {
 		//	 return false;
@@ -439,7 +439,8 @@ savingSystem = {
 			return false;
 		}
 		return str;
-	},
+	}, 
+ 	the single worst save validation system I've ever seen, will fix later*/
 	loadFromString: function(str)
 	{
 		let data = this.validateImportString(str);
